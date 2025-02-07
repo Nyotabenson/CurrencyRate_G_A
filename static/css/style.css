@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eae5e5;
+}
+
+.main {
+    background-color: rgb(160, 160, 180);
+    display: flex;
+    width: 60%;
+    height: 70%;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 1px;
+    font-size: larger;
+    border-radius: 15px;
+}
+.main p{
+    font-size: 1.4rem;
+}
+
+.title {
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.click {
+    background-color: rgb(55, 221, 213);
+    color: rgb(49, 224, 203);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-weight: 400px;
+}

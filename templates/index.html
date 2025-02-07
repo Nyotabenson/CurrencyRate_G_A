@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Streamlit with Flask and Google Analytics</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SGLY9K9D0H"></script>
@@ -16,11 +17,16 @@
 
 </head>
 <body>
-    <h1>Welcome to the Streamlit + Flask App</h1>
-    <p>This page embeds a Streamlit app within a Flask application.</p>
-    <button onclick="window.location.href='https://kshprediction-againstusd.streamlit.app/'">Go to Streamlit App</button>
-
-    <!-- Optionally, you could have a button to launch Streamlit -->
-    <a href="https://kshprediction-againstusd.streamlit.app/">Start Streamlit App</a>
+    <div class="main">
+        <h1>CURRENCY PREDICTION</h1>
+        <br>
+        <h2>USD vs KSH</h2>
+        <br><br>
+        <p>The currency exchange rate is a critical factor when dealing with multiple currencies, especially in import and export transactions. It is essential to consider fluctuations to plan effectively and mitigate financial risks. The USD is widely used in Africa for international trade, making it crucial to monitor exchange rate trends for better financial planning and decision-making.</p>
+        <div class="click">
+          <button onclick="window.location.href='https://kshprediction-againstusd.streamlit.app/'"><b>PREDICT</b></button>
+        </div>
+        
+   </div>
 </body>
 </html>
